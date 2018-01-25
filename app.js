@@ -69,8 +69,6 @@ document.getElementById('book-form').addEventListener('submit', function(e){
   //instantiate UI book
   const ui = new UI();
 
-  console.log(ui)
-
   //validate entry
   if(title === '' || author === '' || isbn === '') {
     ui.showAlert('Please enter all fields', 'error')
